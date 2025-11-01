@@ -1,0 +1,30 @@
+# EMPLOYEE HANDBOOK
+
+## 1. Code of Conduct
+All employees must follow company policies and treat colleagues with respect.
+
+## 2. Working Hours
+Standard working hours are 9 AM to 5 PM, Monday to Friday.
+Flexible hours available upon manager approval.
+
+## 3. Leave Policy
+- Annual Leave: 25 days
+- Sick Leave: 5 days per year
+- Maternity Leave: 16 weeks paid
+
+## 4. Data Protection
+All employee data is protected under GDPR.
+Confidential information must not be shared.
+
+## 5. Remote Work
+Employees can work remotely 2 days per week.
+Must maintain productivity and communication.
+
+## 6. Training and Development
+Company provides budget for professional development.
+Minimum 2 training days per year.
+
+## 7. Grievance Procedure
+- Step 1: Talk to direct manager
+- Step 2: HR department
+- Step 3: Formal hearing

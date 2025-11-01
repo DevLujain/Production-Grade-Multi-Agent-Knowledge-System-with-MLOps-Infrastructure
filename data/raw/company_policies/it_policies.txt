@@ -1,0 +1,23 @@
+# IT POLICIES
+
+## 1. Password Security
+- Minimum 12 characters
+- Change every 90 days
+- Never share passwords
+
+## 2. Email Usage
+Use company email for official business only.
+Personal use is not permitted.
+
+## 3. Software Licenses
+- All software must be licensed
+- Piracy is prohibited
+- Report unlicensed software to IT
+
+## 4. Backup and Recovery
+All work must be saved to company servers.
+Personal devices require encryption.
+
+## 5. VPN Usage
+Use VPN when working remotely.
+VPN credentials are personal and non-transferable.

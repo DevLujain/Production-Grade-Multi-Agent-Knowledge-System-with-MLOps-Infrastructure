@@ -1,0 +1,25 @@
+# HR FAQ
+
+Q: How do I request time off?
+A: Submit request through HR system at least 2 weeks in advance.
+
+Q: What is the probation period?
+A: New employees have 3-month probation period.
+
+Q: Can I work from home?
+A: Yes, up to 2 days per week with manager approval.
+
+Q: What health insurance is provided?
+A: Comprehensive health insurance for employee and family.
+
+Q: How do I request training?
+A: Speak with your manager and submit to HR department.
+
+Q: What is the retirement plan?
+A: Company contributes 5% to pension scheme.
+
+Q: How do I access my payslip?
+A: Login to employee portal at employees.company.com
+
+Q: What are sick leave procedures?
+A: Notify manager within 1 hour and provide medical certificate if absent 3+ days.
