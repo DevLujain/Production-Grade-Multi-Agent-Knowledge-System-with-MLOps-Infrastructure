@@ -1,0 +1,93 @@
+# GDPR REGULATION (EU) 2016/679
+
+## 1. GENERAL PROVISIONS
+
+### Article 1: Subject matter and objectives
+This Regulation lays down rules relating to the protection of natural persons with regard to the processing of personal data.
+
+### Article 2: Material scope
+This Regulation applies to the processing of personal data wholly or partly by automated means.
+
+### Article 3: Territorial scope
+This Regulation applies to the processing of personal data of data subjects who are in the Union.
+
+## 2. PRINCIPLES RELATING TO PROCESSING OF PERSONAL DATA
+
+### Article 5: Lawfulness of processing
+Processing shall be:
+- Lawful and fair
+- Transparent to data subjects
+- Limited to specified purposes
+- Adequate, relevant, and limited
+- Accurate and kept up to date
+- Kept in a form which permits identification for no longer than necessary
+
+### Article 6: Lawfulness of processing
+Processing is only lawful if at least one of the following applies:
+(a) the data subject has given consent
+(b) processing is necessary for a contract
+(c) processing is necessary for compliance with a legal obligation
+(d) processing is necessary to protect vital interests
+(e) processing is necessary for a task carried out in the public interest
+(f) processing is necessary for legitimate interests
+
+## 3. RIGHTS OF THE DATA SUBJECT
+
+### Article 12: Transparent information, communication and modalities for the exercise of rights
+The controller shall facilitate the exercise of data subject rights.
+
+### Article 13: Information to be provided where personal data are collected
+When personal data are collected, the controller shall provide the data subject with:
+- Identity of the controller
+- Purposes of the processing
+- Legitimate interests pursued
+- Recipients of the personal data
+- Right to request access, rectification, erasure
+
+### Article 15: Right of access by the data subject
+The data subject shall have the right to obtain confirmation as to whether or not personal data is being processed.
+
+### Article 17: Right to erasure
+The data subject shall have the right to obtain erasure of personal data without undue delay when:
+- personal data are no longer necessary
+- the data subject withdraws consent
+- the data subject objects to the processing
+- the processing is unlawful
+
+### Article 21: Right to object
+The data subject shall have the right to object to processing.
+
+## 4. DATA PROTECTION BY DESIGN AND BY DEFAULT
+
+### Article 32: Security of processing
+The controller shall implement appropriate technical and organisational measures.
+
+These measures shall include:
+- Pseudonymization and encryption
+- Ability to ensure ongoing confidentiality, integrity, availability
+- Ability to restore availability after incidents
+- Regular testing of measures
+
+## 5. DATA PROTECTION OFFICER
+
+### Article 37: Designation of the Data Protection Officer
+Controllers and processors shall designate a Data Protection Officer in certain cases.
+
+The Data Protection Officer shall:
+- Monitor compliance with this Regulation
+- Be a point of contact for data subjects
+- Cooperate with the supervisory authority
+
+## 6. TRANSFERS OF PERSONAL DATA TO THIRD COUNTRIES
+
+### Article 44: General principle for transfers
+Any transfer of personal data to a third country shall only take place if the conditions are met.
+
+### Article 45: Transfers on the basis of an adequacy decision
+A transfer may take place where the Commission has decided that a third country ensures an adequate level of protection.
+
+### Article 46: Transfers subject to appropriate safeguards
+In the absence of an adequacy decision, transfers may only take place if:
+- Binding corporate rules have been approved
+- Standard data protection clauses have been adopted
+- Approved codes of conduct or certifications are in place

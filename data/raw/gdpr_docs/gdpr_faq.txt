@@ -1,0 +1,46 @@
+# GDPR FAQ FOR EMPLOYEES
+
+Q: What is GDPR?
+A: GDPR (General Data Protection Regulation) is an EU regulation that protects personal data and privacy rights.
+
+Q: What is personal data?
+A: Any information relating to an identified or identifiable natural person. Examples: name, email, IP address, cookies.
+
+Q: What is processing?
+A: Any operation on personal data, including collection, storage, use, deletion.
+
+Q: What is a data controller?
+A: The organization that decides why and how personal data is processed. Usually your employer.
+
+Q: What is a data processor?
+A: An organization that processes personal data on behalf of the controller.
+
+Q: What is consent?
+A: Clear, specific, informed, and voluntary agreement to process personal data.
+
+Q: What are my rights under GDPR?
+A: Right to access, rectification, erasure, restriction, portability, objection, and more.
+
+Q: What should I do if I want to access my data?
+A: Submit a data access request (DSAR) to your HR or data protection officer.
+
+Q: What should I do if I find incorrect data?
+A: Request rectification/correction from your data controller.
+
+Q: Can the company sell my data?
+A: No, not without your explicit consent and lawful basis.
+
+Q: How long can the company keep my data?
+A: Only as long as necessary for the purpose it was collected.
+
+Q: What happens if there's a data breach?
+A: The company must notify affected parties within 72 hours.
+
+Q: What is a Data Protection Officer?
+A: A designated person responsible for monitoring GDPR compliance and handling privacy questions.
+
+Q: Can I opt out of GDPR?
+A: No, GDPR rights apply to all EU residents regardless of company policies.
+
+Q: What penalties apply for GDPR violations?
+A: Up to €20 million or 4% of global revenue, whichever is higher.
