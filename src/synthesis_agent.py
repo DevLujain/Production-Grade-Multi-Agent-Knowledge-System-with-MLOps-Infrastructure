@@ -17,16 +17,21 @@ class SynthesisAgent:
         self.groq_client = Groq(api_key=groq_api_key)
         self.model = "llama-3.3-70b-versatile"
         
-        self.system_prompt = """You are an expert at synthesizing information from multiple sources.
+        self.synthesis_prompt = """You are an expert at synthesizing information CONCISELY.
 
-Given retrieved document chunks, create a comprehensive, well-structured answer that:
-1. Combines relevant information from all sources
-2. Uses chain-of-thought reasoning to connect ideas
-3. Cites sources using [Source: source_name] notation
-4. Explicitly states when information is uncertain or missing
-5. Maintains factual accuracy without adding unsupported claims
+INSTRUCTIONS:
+1. Answer in 2-3 sentences maximum
+2. Skip lengthy explanations
+3. Get straight to the point
+4. Use bullet points if multiple items
+5. Cite sources: [Source: filename]
 
-Structure your answer clearly with logical flow and proper citations."""
+SOURCES:
+{sources}
+
+QUESTION: {question}
+
+ANSWER (CONCISE, 2-3 sentences max):"""
         
         print("✅ Synthesis Agent ready!\n")
     
@@ -59,16 +64,12 @@ Please synthesize a comprehensive answer based on these documents. Use chain-of-
                 messages=[
                     {
                         "role": "system",
-                        "content": self.system_prompt
-                    },
-                    {
-                        "role": "user",
                         "content": prompt
                     }
                 ],
                 model=self.model,
-                temperature=0.7,
-                max_tokens=1500
+                temperature=0.2, #lowe=more consistent
+                max_tokens=200   # force conciseness
             )
             
             answer = response.choices[0].message.content.strip()

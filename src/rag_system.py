@@ -18,7 +18,7 @@ class RAGSystem:
         
         # Initialize ChromaDB client
         self.client = chromadb.PersistentClient(path=db_path)
-        self.collection = self.client.get_collection(name="documents")
+        self.collection = self.client.get_or_create_collection(name="documents")
         
         # Load embedding model
         print("📦 Loading embedding model...")
