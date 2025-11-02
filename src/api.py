@@ -9,7 +9,7 @@ import time
 from dotenv import load_dotenv
 import os
 
-from rag_system import RAGSystem
+from .rag_system import RAGSystem
 from agent_orchestrator import AgentOrchestrator
 
 load_dotenv()

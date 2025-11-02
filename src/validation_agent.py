@@ -159,13 +159,21 @@ REASONING: [brief explanation]"""
         llm_validation = self.llm_validation(answer, documents)
         
         # Compile results
+        # Calculate confidence
+        if "missing" in answer.lower() or "cannot determine" in answer.lower() or "no information" in answer.lower() or "not in" in answer.lower():
+            final_confidence = 100
+        else:
+            final_confidence = 100 - (len(hallucinations) * 5 + len(citations['invalid']) * 10)
+
+        # Compile results
         validation_result = {
-            'hallucinations': hallucinations,
-            'citations': citations,
-            'llm_validation': llm_validation,
-            'is_valid': len(hallucinations) == 0 and len(citations['invalid']) == 0,
-            'confidence': 100 - (len(hallucinations) * 5 + len(citations['invalid']) * 10)
+          'hallucinations': hallucinations,
+          'citations': citations,
+          'llm_validation': llm_validation,
+          'is_valid': len(hallucinations) == 0 and len(citations['invalid']) == 0,
+          'confidence': final_confidence
         }
+          
         
         print("\n" + "=" * 70)
         print("VALIDATION RESULT")
