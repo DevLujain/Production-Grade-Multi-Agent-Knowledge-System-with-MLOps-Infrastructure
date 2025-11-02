@@ -1,14 +1,13 @@
-FROM python:3.10
+FROM python:3.9
+
+RUN useradd -m -u 1000 user
+USER user
+ENV PATH="/home/user/.local/bin:$PATH"
 
 WORKDIR /app
-ENV CHROMADB_PERSIST_DIR=/app/data/vectordb
 
-COPY requirements.txt .
-RUN pip install --no-cache-dir -r requirements.txt
+COPY --chown=user ./requirements.txt requirements.txt
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-COPY . .
-
-RUN mkdir -p /app/data/vectordb
-ENV PYTHONPATH=/app/src
-
-CMD ["uvicorn", "src.api:app", "--host", "0.0.0.0", "--port", "8000"]
+COPY --chown=user . /app
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
