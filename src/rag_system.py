@@ -2,7 +2,7 @@ import json
 import chromadb
 from sentence_transformers import SentenceTransformer
 from groq import Groq
-from hybrid_search import HybridSearch
+from .hybrid_search import HybridSearch
 from query_agent import QueryUnderstandingAgent
 from retrieval_agent import RetrievalAgent
 from synthesis_agent import SynthesisAgent
