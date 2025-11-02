@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+langchain
+chromadb
+sentence-transformers
+groq
+python-dotenv
+PyPDF2
+redis
+rank-bm25
